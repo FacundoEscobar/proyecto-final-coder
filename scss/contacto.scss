@@ -1,2 +1,72 @@
+    /* contacto */
 
-/* PÁGINA DE CONTACTO */
+.main__contacto{
+    background-image: $gradiant-claro;
+    padding: 5rem;
+}
+
+.main__contacto{
+    article{
+        .grid__contacto{
+            display: grid;
+            grid-template-columns: 30% 55% 15%;
+            grid-template-rows: min-content min-content min-content;
+            grid-template-areas: 
+            "imagenContacto parrafoContacto ..."
+            "imagenContacto formulario aguscell"
+            "... Boton ...";
+        }
+    }
+}
+
+.grid__contacto{
+    .grid__contacto--imagen{
+        grid-area: imagenContacto;
+        margin: 1.5rem;
+    }
+        .grid__contacto--parrafo{
+            grid-area: parrafoContacto;
+            margin-top: 1rem;
+            font-family: 'Mukta', sans-serif;
+            font-size: 1.4rem;
+            color: #fff;
+        }
+        .grid__contacto--form{
+            grid-area: formulario;
+        }
+}
+
+
+form{
+    label{
+        margin: 0.5rem;
+    }
+}
+
+.boton{
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+    border-radius: 5px;
+}
+
+.grid__contacto{
+    .aguscell__img{
+        grid-area: aguscell;
+        border-radius: 50%;
+        position: absolute;
+        right: 4.5rem;
+        top: 34rem;
+        width: 13%;
+    }
+}
+
+.aguscell__img:hover{
+    animation: bounce;
+    animation-duration: 1.5s;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

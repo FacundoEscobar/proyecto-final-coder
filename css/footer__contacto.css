@@ -1,0 +1,26 @@
+/* footer contacto */
+.footer__contacto {
+  background-color: #ECF2FF;
+  padding-top: 1.7rem;
+}
+.footer__contacto nav div p {
+  padding-left: 68rem;
+  width: 35%;
+  display: inline;
+  color: #000;
+}
+
+.footer__contacto nav ul li a {
+  color: #000;
+  font-family: "Hind", sans-serif;
+  text-decoration: none;
+}
+
+.ul__footer--contacto {
+  list-style-type: none;
+}
+.ul__footer--contacto li {
+  display: inline;
+  padding: 1rem;
+  margin-top: 10rem;
+}
