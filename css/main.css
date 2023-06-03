@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor .contenedor__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+}
+
+.contenedor {
+  background-image: -webkit-gradient(linear, left top, right top, from(#394867), to(#8294C4));
+  background-image: linear-gradient(to right, #394867 0%, #8294C4 100%);
+}
+
+.contenedor__imagen .banner {
+  border: solid rgb(83, 83, 83);
+  border-radius: 50%;
+  width: 15rem;
+  height: 230px;
+}
+
+.banner:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+div .img__finalPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 3rem 3rem 5rem;
+}
+div .img__finalPage .twitter {
+  width: 50px;
+  height: 50px;
+}
+div .img__finalPage .facebook {
+  width: 50px;
+  height: 50px;
+}
+div .img__finalPage .instagram {
+  width: 50px;
+  height: 50px;
+}
+
+div section img {
+  border: solid black 1px;
+  border-radius: 50%;
+}
+
+div .contenedor__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.h4__fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.h4__fotos .nombres__1 {
+  padding-right: 2.5rem;
+}
+
+main div .parrafo {
+  font-size: 1.3rem;
+  color: white;
+  margin: 1rem 1rem;
+}
+
+/* FOOTER */
+.index__footer {
+  background-color: #ECF2FF;
+  padding-top: 1.7rem;
+}
+
+.index__footer nav div p {
+  padding-left: 68rem;
+  width: 35%;
+  display: inline;
+}
+
+.ul__footer {
+  list-style-type: none;
+}
+.ul__footer li {
+  display: inline;
+  padding: 1rem;
+  margin-top: 10rem;
+}
+
+.index__footer nav ul li a {
+  color: #000;
+  font-family: "Hind", sans-serif;
+  text-decoration: none;
+}
